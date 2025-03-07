@@ -1,6 +1,6 @@
 import os
 import random
-import cv2
+import cv2 # type: ignore
 
 
 # Get current working directory (where the script is located)
