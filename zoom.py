@@ -6,10 +6,10 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, i
 
 
 
-# Get current working directory (where the script is located)
+
 base_dir = os.getcwd()
 
-# Construct the correct path
+
 test_dir = os.path.join(base_dir, "simpsons-mnist-master", "dataset", "rgb", "test")
 zoom_in_dir = os.path.join(base_dir, "simpsons-mnist-master", "dataset", "rgb", "test_zoomed_in")
 zoom_out_dir = os.path.join(base_dir, "simpsons-mnist-master", "dataset", "rgb", "test_zoomed_out")
